@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="jsonData">
+    <Position X="3.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgEMAAAAECAQAACAAAAAQIAAAAEAAAEA=</HashCode>
+      <FileName>jsonData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Connection" />
+      <Field Name="Methods" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="database::dbHelper">
+    <Position X="6.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAgAAAAgAAAQABAyIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbHelper.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hDbc" />
+      <Field Name="hEnv" />
+      <Field Name="pwszConnStr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::_Alty" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::const_pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::mapped_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::_Mybase" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::const_reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::allocator_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::key_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::key_compare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::const_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::_Myt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::value_compare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::_Pairib" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::map&lt;_Kty, _Ty, _Pr, _Alloc&gt;::const_reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\Program Files (x86)\VC\include\map</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAABAAACQAAAAAAIAAAEBBAAAgAAgAAAAAAA=</HashCode>
+      <FileName>d:\Program Files (x86)\VC\include\map</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="SQLHDBC" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Windows Kits\8.1\Include\um\sqltypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SQLHENV" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Windows Kits\8.1\Include\um\sqltypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SQLWCHAR" Collapsed="true">
+    <Position X="6.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Windows Kits\8.1\Include\um\sqltypes.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
